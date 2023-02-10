@@ -1,0 +1,18 @@
+2022-12-10 00:00:45,143: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-10 00:00:45,166: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2022-12-10 00:17:53,807: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-10 00:17:53,830: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2022-12-10 00:31:51,491: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-10 00:31:51,523: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2022-12-10 18:09:05,286: [ERROR] System.InvalidCastException: Unable to cast object of type 'System.Security.Principal.GenericIdentity' to type 'System.Web.Security.FormsIdentity'.
+   at Gemini.Controllers._01_Hethong.AdminController.Index() in C:\ProjectOS\Corework\Gemini\Controllers\01_Hethong\AdminController.cs:line 32
+2022-12-10 18:09:07,603: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-10 18:09:07,621: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2022-12-10 18:10:59,392: [ERROR] System.InvalidCastException: Unable to cast object of type 'System.Security.Principal.GenericIdentity' to type 'System.Web.Security.FormsIdentity'.
+   at Gemini.Controllers._01_Hethong.AdminController.Index() in C:\ProjectOS\Corework\Gemini\Controllers\01_Hethong\AdminController.cs:line 32
+2022-12-10 18:11:00,906: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-10 18:11:00,926: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2022-12-10 19:11:40,344: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-10 19:11:40,371: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2022-12-10 22:51:56,163: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-10 22:51:56,207: [DEBUG] AdminController-Login: Ðang nh?p thành công

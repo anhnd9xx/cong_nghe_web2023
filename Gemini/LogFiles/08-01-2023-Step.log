@@ -1,0 +1,687 @@
+2023-01-08 01:33:55,561: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:34:05,580: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:34:15,630: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:34:25,655: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:34:35,702: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:34:45,706: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:35:02,900: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:35:32,481: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:35:35,102: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:35:53,996: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:35:54,012: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:03,997: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:04,027: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:14,012: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:14,028: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:24,021: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:24,038: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:34,022: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:34,054: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:44,024: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:44,072: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:54,035: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:36:54,082: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:04,051: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:04,083: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:14,056: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:14,088: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:24,099: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:24,134: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:39,970: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:39,975: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:49,987: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:37:49,987: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:00,002: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:00,002: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:10,008: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:10,008: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:20,024: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:20,024: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:30,028: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:30,028: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:40,043: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:40,043: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:50,046: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:38:50,046: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:00,050: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:00,050: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:10,057: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:10,057: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:20,061: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:20,061: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:30,065: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:30,065: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:40,074: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:40,074: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:50,076: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:39:50,076: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:00,077: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:00,077: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:10,082: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:10,082: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:20,093: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:20,093: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:30,099: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:30,099: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:40,107: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:40,107: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:50,121: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:40:50,121: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:00,133: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:00,133: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:10,138: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:10,138: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:20,151: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:20,151: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:30,153: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:30,153: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:40,188: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:40,189: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:50,193: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:41:50,193: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:00,202: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:00,202: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:10,216: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:10,216: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:20,232: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:20,232: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:30,243: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:30,243: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:40,259: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:40,259: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:50,267: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:42:50,267: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:43:00,282: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:43:00,283: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:43:44,960: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:43:44,960: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:43:54,992: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:43:55,030: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:06,617: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:06,618: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:16,632: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:16,632: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:26,648: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:26,648: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:36,652: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:36,652: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:46,664: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:44:46,664: [ERROR] HomeController - GetLoginResult: System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at Gemini.Controllers._20_Web.Home.HomeController.GetLoginResult(String userName, String password) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 136
+2023-01-08 01:46:40,527: [DEBUG] HomeController - GetLoginResult: {"redirectUrl":"/blocked?url=L2FjY291bnQvc2lnbmluL3dpdGhvdHBjaG9pY2U=\u0026uuid=9a4edc40-8ebb-11ed-b114-4574777a6a70\u0026vid=\u0026g=b","appId":"PXu6b0qd2S","jsClientSrc":"/px/PXu6b0qd2S/init.js","firstPartyEnabled":true,"vid":"","uuid":"9a4edc40-8ebb-11ed-b114-4574777a6a70","hostUrl":"/px/PXu6b0qd2S/xhr","blockScript":"/px/PXu6b0qd2S/captcha/captcha.js?a=c\u0026m=0\u0026u=9a4edc40-8ebb-11ed-b114-4574777a6a70\u0026v=\u0026g=b"}
+2023-01-08 01:54:56,964: [DEBUG] HomeController - GetLoginResult: {"redirectUrl":"/blocked?url=L2FjY291bnQvc2lnbmluL3dpdGhvdHBjaG9pY2U=\u0026uuid=c74748c8-8ebc-11ed-8e6b-7664594b6370\u0026vid=\u0026g=b","appId":"PXu6b0qd2S","jsClientSrc":"/px/PXu6b0qd2S/init.js","firstPartyEnabled":true,"vid":"","uuid":"c74748c8-8ebc-11ed-8e6b-7664594b6370","hostUrl":"/px/PXu6b0qd2S/xhr","blockScript":"/px/PXu6b0qd2S/captcha/captcha.js?a=c\u0026m=0\u0026u=c74748c8-8ebc-11ed-8e6b-7664594b6370\u0026v=\u0026g=b"}
+2023-01-08 01:55:30,298: [ERROR] HomeController - UploadFile:System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.TransmitFile(String filename, Int64 offset, Int64 length)
+   at Gemini.Controllers._20_Web.Home.HomeController.ExportFileResult(List`1 results) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 195
+   at Gemini.Controllers._20_Web.Home.HomeController.UploadFile(FormCollection collection) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 77
+2023-01-08 01:56:13,761: [DEBUG] HomeController - GetLoginResult: {"redirectUrl":"/blocked?url=L2FjY291bnQvc2lnbmluL3dpdGhvdHBjaG9pY2U=\u0026uuid=f5174f8c-8ebc-11ed-bc61-5666486a7259\u0026vid=\u0026g=b","appId":"PXu6b0qd2S","jsClientSrc":"/px/PXu6b0qd2S/init.js","firstPartyEnabled":true,"vid":"","uuid":"f5174f8c-8ebc-11ed-bc61-5666486a7259","hostUrl":"/px/PXu6b0qd2S/xhr","blockScript":"/px/PXu6b0qd2S/captcha/captcha.js?a=c\u0026m=0\u0026u=f5174f8c-8ebc-11ed-bc61-5666486a7259\u0026v=\u0026g=b"}
+2023-01-08 01:56:32,683: [ERROR] HomeController - UploadFile:System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.TransmitFile(String filename, Int64 offset, Int64 length)
+   at Gemini.Controllers._20_Web.Home.HomeController.ExportFileResult(List`1 results) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 195
+   at Gemini.Controllers._20_Web.Home.HomeController.UploadFile(FormCollection collection) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 77
+2023-01-08 01:56:45,810: [DEBUG] HomeController - GetLoginResult: {"redirectUrl":"/blocked?url=L2FjY291bnQvc2lnbmluL3dpdGhvdHBjaG9pY2U=\u0026uuid=083dc337-8ebd-11ed-91e7-4b656c6c436c\u0026vid=\u0026g=b","appId":"PXu6b0qd2S","jsClientSrc":"/px/PXu6b0qd2S/init.js","firstPartyEnabled":true,"vid":"","uuid":"083dc337-8ebd-11ed-91e7-4b656c6c436c","hostUrl":"/px/PXu6b0qd2S/xhr","blockScript":"/px/PXu6b0qd2S/captcha/captcha.js?a=c\u0026m=0\u0026u=083dc337-8ebd-11ed-91e7-4b656c6c436c\u0026v=\u0026g=b"}
+2023-01-08 01:57:26,116: [DEBUG] HomeController - GetLoginResult: {"redirectUrl":"/blocked?url=L2FjY291bnQvc2lnbmluL3dpdGhvdHBjaG9pY2U=\u0026uuid=203b856d-8ebd-11ed-854d-5545634f6c44\u0026vid=\u0026g=b","appId":"PXu6b0qd2S","jsClientSrc":"/px/PXu6b0qd2S/init.js","firstPartyEnabled":true,"vid":"","uuid":"203b856d-8ebd-11ed-854d-5545634f6c44","hostUrl":"/px/PXu6b0qd2S/xhr","blockScript":"/px/PXu6b0qd2S/captcha/captcha.js?a=c\u0026m=0\u0026u=203b856d-8ebd-11ed-854d-5545634f6c44\u0026v=\u0026g=b"}
+2023-01-08 01:57:50,716: [ERROR] HomeController - UploadFile:System.IO.FileNotFoundException: Could not find file 'C:\ProjectOS\Corework\Gemini\Exports\Result_20230108_015736.csv'.
+File name: 'C:\ProjectOS\Corework\Gemini\Exports\Result_20230108_015736.csv'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.TransmitFile(String filename, Int64 offset, Int64 length)
+   at Gemini.Controllers._20_Web.Home.HomeController.ExportFileResult(List`1 results) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 195
+   at Gemini.Controllers._20_Web.Home.HomeController.UploadFile(FormCollection collection) in C:\ProjectOS\Corework\Gemini\Controllers\20_Web\Home\HomeController.cs:line 77
+2023-01-08 02:02:55,714: [DEBUG] HomeController - GetLoginResult: {"redirectUrl":"/blocked?url=L2FjY291bnQvc2lnbmluL3dpdGhvdHBjaG9pY2U=\u0026uuid=e4aac240-8ebd-11ed-9fe8-766d676a626c\u0026vid=\u0026g=b","appId":"PXu6b0qd2S","jsClientSrc":"/px/PXu6b0qd2S/init.js","firstPartyEnabled":true,"vid":"","uuid":"e4aac240-8ebd-11ed-9fe8-766d676a626c","hostUrl":"/px/PXu6b0qd2S/xhr","blockScript":"/px/PXu6b0qd2S/captcha/captcha.js?a=c\u0026m=0\u0026u=e4aac240-8ebd-11ed-9fe8-766d676a626c\u0026v=\u0026g=b"}
+2023-01-08 02:04:33,687: [DEBUG] HomeController - GetLoginResult: {"redirectUrl":"/blocked?url=L2FjY291bnQvc2lnbmluL3dpdGhvdHBjaG9pY2U=\u0026uuid=1f11d8c1-8ebe-11ed-a73b-466d76715970\u0026vid=\u0026g=b","appId":"PXu6b0qd2S","jsClientSrc":"/px/PXu6b0qd2S/init.js","firstPartyEnabled":true,"vid":"","uuid":"1f11d8c1-8ebe-11ed-a73b-466d76715970","hostUrl":"/px/PXu6b0qd2S/xhr","blockScript":"/px/PXu6b0qd2S/captcha/captcha.js?a=c\u0026m=0\u0026u=1f11d8c1-8ebe-11ed-a73b-466d76715970\u0026v=\u0026g=b"}
+2023-01-08 22:53:11,714: [ERROR] System.InvalidCastException: Unable to cast object of type 'System.Security.Principal.GenericIdentity' to type 'System.Web.Security.FormsIdentity'.
+   at Gemini.Controllers._01_Hethong.AdminController.Index() in C:\ProjectOS\Corework\Gemini\Controllers\01_Hethong\AdminController.cs:line 33
+2023-01-08 22:53:24,042: [DEBUG] AdminController-Login: Ðang nh?p
+2023-01-08 22:53:25,688: [DEBUG] AdminController-Login: Ðang nh?p thành công

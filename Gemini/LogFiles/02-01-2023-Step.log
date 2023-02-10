@@ -1,0 +1,4 @@
+2023-01-02 23:08:58,004: [ERROR] System.InvalidCastException: Unable to cast object of type 'System.Security.Principal.GenericIdentity' to type 'System.Web.Security.FormsIdentity'.
+   at Gemini.Controllers._01_Hethong.AdminController.Index() in C:\ProjectOS\Corework\Gemini\Controllers\01_Hethong\AdminController.cs:line 33
+2023-01-02 23:09:00,924: [DEBUG] AdminController-Login: Ðang nh?p
+2023-01-02 23:09:01,764: [DEBUG] AdminController-Login: Ðang nh?p thành công

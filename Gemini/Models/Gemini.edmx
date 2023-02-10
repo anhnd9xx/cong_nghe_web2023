@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Gemini.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BaiVietCaNhan">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ChuBaiVietId" Type="int" />
+          <Property Name="NoiDungBaiViet" Type="nvarchar(max)" />
+          <Property Name="Media" Type="image" />
+          <Property Name="MediaThumb" Type="image" />
+          <Property Name="BinhLuanIds" Type="nvarchar(max)" />
+          <Property Name="NguoiThichIds" Type="nvarchar(max)" />
+          <Property Name="Status" Type="nvarchar" MaxLength="255" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+          <Property Name="CreatedBy" Type="int" Nullable="false" />
+          <Property Name="UpdatedAt" Type="datetime" />
+          <Property Name="UpdatedBy" Type="int" />
+        </EntityType>
+        <EntityType Name="BaiVietCaNhanAnh">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BaiVietId" Type="int" />
+          <Property Name="Image" Type="image" />
+          <Property Name="Sort" Type="int" />
+        </EntityType>
+        <EntityType Name="BaiVietCaNhanBaoCao">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BaiVietId" Type="int" />
+          <Property Name="Subject" Type="nvarchar" MaxLength="255" />
+          <Property Name="Details" Type="nvarchar(max)" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+          <Property Name="CreatedBy" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BanBe">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TaiKhoanCaNhanYeuCau" Type="int" />
+          <Property Name="TaiKhoanCaNhanChapNhan" Type="int" />
+          <Property Name="Accepted" Type="int" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BinhLuan">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="BaiVietId" Type="int" />
+          <Property Name="NguoiVietBinhLuanId" Type="int" />
+          <Property Name="NoiDungBinhLuan" Type="nvarchar" MaxLength="255" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+          <Property Name="CreatedBy" Type="int" Nullable="false" />
+          <Property Name="UpdatedAt" Type="datetime" />
+          <Property Name="UpdatedBy" Type="int" />
+        </EntityType>
+        <EntityType Name="DoanChat">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NguoiGuiId" Type="int" />
+          <Property Name="NguoiNhanId" Type="int" />
+          <Property Name="NoiDungChat" Type="nvarchar" MaxLength="255" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+          <Property Name="CreatedBy" Type="int" Nullable="false" />
+          <Property Name="UpdatedAt" Type="datetime" />
+          <Property Name="UpdatedBy" Type="int" />
+        </EntityType>
+        <EntityType Name="LichSuTimKiem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TuKhoa" Type="nvarchar(max)" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+          <Property Name="CreatedBy" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TaiKhoanCaNhan">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Ten" Type="nvarchar" MaxLength="255" />
+          <Property Name="MatKhau" Type="nvarchar" MaxLength="255" />
+          <Property Name="SoDienThoai" Type="nvarchar" MaxLength="255" />
+          <Property Name="LinkAvatar" Type="nvarchar" MaxLength="255" />
+          <Property Name="Token" Type="nvarchar(max)" />
+          <Property Name="ChanIds" Type="nvarchar(max)" />
+          <Property Name="Active" Type="int" Nullable="false" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+          <Property Name="CreatedBy" Type="int" Nullable="false" />
+          <Property Name="UpdatedAt" Type="datetime" />
+          <Property Name="UpdatedBy" Type="int" />
+        </EntityType>
+        <Association Name="FK_BaiVietCaNhanAnh_BaiVietCaNhan">
+          <End Role="BaiVietCaNhan" Type="Self.BaiVietCaNhan" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="BaiVietCaNhanAnh" Type="Self.BaiVietCaNhanAnh" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BaiVietCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BaiVietCaNhanAnh">
+              <PropertyRef Name="BaiVietId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BaiVietCaNhanBaoCao_BaiVietCaNhan">
+          <End Role="BaiVietCaNhan" Type="Self.BaiVietCaNhan" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="BaiVietCaNhanBaoCao" Type="Self.BaiVietCaNhanBaoCao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BaiVietCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BaiVietCaNhanBaoCao">
+              <PropertyRef Name="BaiVietId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BanBe_TaiKhoanCaNhan">
+          <End Role="TaiKhoanCaNhan" Type="Self.TaiKhoanCaNhan" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="BanBe" Type="Self.BanBe" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaiKhoanCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BanBe">
+              <PropertyRef Name="TaiKhoanCaNhanYeuCau" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BinhLuan_BaiVietCaNhan">
+          <End Role="BaiVietCaNhan" Type="Self.BaiVietCaNhan" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="BinhLuan" Type="Self.BinhLuan" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BaiVietCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BinhLuan">
+              <PropertyRef Name="BaiVietId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LichSuTimKiem_TaiKhoanCaNhan">
+          <End Role="TaiKhoanCaNhan" Type="Self.TaiKhoanCaNhan" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LichSuTimKiem" Type="Self.LichSuTimKiem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaiKhoanCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LichSuTimKiem">
+              <PropertyRef Name="CreatedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GeminiStoreContainer">
+          <EntitySet Name="BaiVietCaNhan" EntityType="Self.BaiVietCaNhan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BaiVietCaNhanAnh" EntityType="Self.BaiVietCaNhanAnh" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BaiVietCaNhanBaoCao" EntityType="Self.BaiVietCaNhanBaoCao" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BanBe" EntityType="Self.BanBe" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BinhLuan" EntityType="Self.BinhLuan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DoanChat" EntityType="Self.DoanChat" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LichSuTimKiem" EntityType="Self.LichSuTimKiem" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TaiKhoanCaNhan" EntityType="Self.TaiKhoanCaNhan" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_BaiVietCaNhanAnh_BaiVietCaNhan" Association="Self.FK_BaiVietCaNhanAnh_BaiVietCaNhan">
+            <End Role="BaiVietCaNhan" EntitySet="BaiVietCaNhan" />
+            <End Role="BaiVietCaNhanAnh" EntitySet="BaiVietCaNhanAnh" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BaiVietCaNhanBaoCao_BaiVietCaNhan" Association="Self.FK_BaiVietCaNhanBaoCao_BaiVietCaNhan">
+            <End Role="BaiVietCaNhan" EntitySet="BaiVietCaNhan" />
+            <End Role="BaiVietCaNhanBaoCao" EntitySet="BaiVietCaNhanBaoCao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BanBe_TaiKhoanCaNhan" Association="Self.FK_BanBe_TaiKhoanCaNhan">
+            <End Role="TaiKhoanCaNhan" EntitySet="TaiKhoanCaNhan" />
+            <End Role="BanBe" EntitySet="BanBe" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BinhLuan_BaiVietCaNhan" Association="Self.FK_BinhLuan_BaiVietCaNhan">
+            <End Role="BaiVietCaNhan" EntitySet="BaiVietCaNhan" />
+            <End Role="BinhLuan" EntitySet="BinhLuan" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LichSuTimKiem_TaiKhoanCaNhan" Association="Self.FK_LichSuTimKiem_TaiKhoanCaNhan">
+            <End Role="TaiKhoanCaNhan" EntitySet="TaiKhoanCaNhan" />
+            <End Role="LichSuTimKiem" EntitySet="LichSuTimKiem" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Gemini" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntityContainer Name="GeminiEntities" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+          <FunctionImport Name="sp_alterdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_creatediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_dropdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(Gemini.sp_helpdiagramdefinition_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(Gemini.sp_helpdiagrams_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_renamediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="new_diagramname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_upgraddiagrams" />
+          <FunctionImport Name="fnSplit" IsComposable="true" ReturnType="Collection(String)">
+            <Parameter Name="sInputList" Mode="In" Type="String" />
+            <Parameter Name="sDelimiter" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="BaiVietCaNhans" EntityType="Gemini.BaiVietCaNhan" />
+          <EntitySet Name="BaiVietCaNhanAnhs" EntityType="Gemini.BaiVietCaNhanAnh" />
+          <EntitySet Name="BaiVietCaNhanBaoCaos" EntityType="Gemini.BaiVietCaNhanBaoCao" />
+          <EntitySet Name="BanBes" EntityType="Gemini.BanBe" />
+          <EntitySet Name="BinhLuans" EntityType="Gemini.BinhLuan" />
+          <EntitySet Name="DoanChats" EntityType="Gemini.DoanChat" />
+          <EntitySet Name="LichSuTimKiems" EntityType="Gemini.LichSuTimKiem" />
+          <EntitySet Name="sysdiagrams" EntityType="Gemini.sysdiagram" />
+          <EntitySet Name="TaiKhoanCaNhans" EntityType="Gemini.TaiKhoanCaNhan" />
+          <AssociationSet Name="FK_BaiVietCaNhanAnh_BaiVietCaNhan" Association="Gemini.FK_BaiVietCaNhanAnh_BaiVietCaNhan">
+            <End Role="BaiVietCaNhan" EntitySet="BaiVietCaNhans" />
+            <End Role="BaiVietCaNhanAnh" EntitySet="BaiVietCaNhanAnhs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BaiVietCaNhanBaoCao_BaiVietCaNhan" Association="Gemini.FK_BaiVietCaNhanBaoCao_BaiVietCaNhan">
+            <End Role="BaiVietCaNhan" EntitySet="BaiVietCaNhans" />
+            <End Role="BaiVietCaNhanBaoCao" EntitySet="BaiVietCaNhanBaoCaos" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BinhLuan_BaiVietCaNhan" Association="Gemini.FK_BinhLuan_BaiVietCaNhan">
+            <End Role="BaiVietCaNhan" EntitySet="BaiVietCaNhans" />
+            <End Role="BinhLuan" EntitySet="BinhLuans" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BanBe_TaiKhoanCaNhan" Association="Gemini.FK_BanBe_TaiKhoanCaNhan">
+            <End Role="TaiKhoanCaNhan" EntitySet="TaiKhoanCaNhans" />
+            <End Role="BanBe" EntitySet="BanBes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LichSuTimKiem_TaiKhoanCaNhan" Association="Gemini.FK_LichSuTimKiem_TaiKhoanCaNhan">
+            <End Role="TaiKhoanCaNhan" EntitySet="TaiKhoanCaNhans" />
+            <End Role="LichSuTimKiem" EntitySet="LichSuTimKiems" />
+          </AssociationSet>
+          </EntityContainer>
+        <ComplexType Name="sp_helpdiagramdefinition_Result">
+          <Property Type="Int32" Name="version" Nullable="true" />
+          <Property Type="Binary" Name="definition" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_helpdiagrams_Result">
+          <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+          <Property Type="Int32" Name="OwnerID" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="BaiVietCaNhan">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ChuBaiVietId" Type="Int32" />
+          <Property Name="NoiDungBaiViet" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Media" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="MediaThumb" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="BinhLuanIds" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NguoiThichIds" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+          <Property Name="UpdatedBy" Type="Int32" />
+          <NavigationProperty Name="BaiVietCaNhanAnhs" Relationship="Gemini.FK_BaiVietCaNhanAnh_BaiVietCaNhan" FromRole="BaiVietCaNhan" ToRole="BaiVietCaNhanAnh" />
+          <NavigationProperty Name="BaiVietCaNhanBaoCaos" Relationship="Gemini.FK_BaiVietCaNhanBaoCao_BaiVietCaNhan" FromRole="BaiVietCaNhan" ToRole="BaiVietCaNhanBaoCao" />
+          <NavigationProperty Name="BinhLuans" Relationship="Gemini.FK_BinhLuan_BaiVietCaNhan" FromRole="BaiVietCaNhan" ToRole="BinhLuan" />
+        </EntityType>
+        <EntityType Name="BaiVietCaNhanAnh">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BaiVietId" Type="Int32" />
+          <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Sort" Type="Int32" />
+          <NavigationProperty Name="BaiVietCaNhan" Relationship="Gemini.FK_BaiVietCaNhanAnh_BaiVietCaNhan" FromRole="BaiVietCaNhanAnh" ToRole="BaiVietCaNhan" />
+        </EntityType>
+        <EntityType Name="BaiVietCaNhanBaoCao">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BaiVietId" Type="Int32" />
+          <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Details" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="BaiVietCaNhan" Relationship="Gemini.FK_BaiVietCaNhanBaoCao_BaiVietCaNhan" FromRole="BaiVietCaNhanBaoCao" ToRole="BaiVietCaNhan" />
+        </EntityType>
+        <EntityType Name="BanBe">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TaiKhoanCaNhanYeuCau" Type="Int32" />
+          <Property Name="TaiKhoanCaNhanChapNhan" Type="Int32" />
+          <Property Name="Accepted" Type="Int32" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="TaiKhoanCaNhan" Relationship="Gemini.FK_BanBe_TaiKhoanCaNhan" FromRole="BanBe" ToRole="TaiKhoanCaNhan" />
+        </EntityType>
+        <EntityType Name="BinhLuan">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="BaiVietId" Type="Int32" />
+          <Property Name="NguoiVietBinhLuanId" Type="Int32" />
+          <Property Name="NoiDungBinhLuan" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+          <Property Name="UpdatedBy" Type="Int32" />
+          <NavigationProperty Name="BaiVietCaNhan" Relationship="Gemini.FK_BinhLuan_BaiVietCaNhan" FromRole="BinhLuan" ToRole="BaiVietCaNhan" />
+        </EntityType>
+        <EntityType Name="DoanChat">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NguoiGuiId" Type="Int32" />
+          <Property Name="NguoiNhanId" Type="Int32" />
+          <Property Name="NoiDungChat" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+          <Property Name="UpdatedBy" Type="Int32" />
+        </EntityType>
+        <EntityType Name="LichSuTimKiem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TuKhoa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="TaiKhoanCaNhan" Relationship="Gemini.FK_LichSuTimKiem_TaiKhoanCaNhan" FromRole="LichSuTimKiem" ToRole="TaiKhoanCaNhan" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TaiKhoanCaNhan">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ten" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="MatKhau" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="SoDienThoai" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="LinkAvatar" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Token" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ChanIds" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Active" Type="Int32" Nullable="false" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+          <Property Name="UpdatedBy" Type="Int32" />
+          <NavigationProperty Name="BanBes" Relationship="Gemini.FK_BanBe_TaiKhoanCaNhan" FromRole="TaiKhoanCaNhan" ToRole="BanBe" />
+          <NavigationProperty Name="LichSuTimKiems" Relationship="Gemini.FK_LichSuTimKiem_TaiKhoanCaNhan" FromRole="TaiKhoanCaNhan" ToRole="LichSuTimKiem" />
+        </EntityType>
+        <Association Name="FK_BaiVietCaNhanAnh_BaiVietCaNhan">
+          <End Type="Gemini.BaiVietCaNhan" Role="BaiVietCaNhan" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="Gemini.BaiVietCaNhanAnh" Role="BaiVietCaNhanAnh" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BaiVietCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BaiVietCaNhanAnh">
+              <PropertyRef Name="BaiVietId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BaiVietCaNhanBaoCao_BaiVietCaNhan">
+          <End Type="Gemini.BaiVietCaNhan" Role="BaiVietCaNhan" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="Gemini.BaiVietCaNhanBaoCao" Role="BaiVietCaNhanBaoCao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BaiVietCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BaiVietCaNhanBaoCao">
+              <PropertyRef Name="BaiVietId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BinhLuan_BaiVietCaNhan">
+          <End Type="Gemini.BaiVietCaNhan" Role="BaiVietCaNhan" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="Gemini.BinhLuan" Role="BinhLuan" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BaiVietCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BinhLuan">
+              <PropertyRef Name="BaiVietId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BanBe_TaiKhoanCaNhan">
+          <End Type="Gemini.TaiKhoanCaNhan" Role="TaiKhoanCaNhan" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="Gemini.BanBe" Role="BanBe" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaiKhoanCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BanBe">
+              <PropertyRef Name="TaiKhoanCaNhanYeuCau" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LichSuTimKiem_TaiKhoanCaNhan">
+          <End Type="Gemini.TaiKhoanCaNhan" Role="TaiKhoanCaNhan" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="Gemini.LichSuTimKiem" Role="LichSuTimKiem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaiKhoanCaNhan">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LichSuTimKiem">
+              <PropertyRef Name="CreatedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="GeminiStoreContainer" CdmEntityContainer="GeminiEntities">
+          <EntitySetMapping Name="BaiVietCaNhans">
+            <EntityTypeMapping TypeName="Gemini.BaiVietCaNhan">
+              <MappingFragment StoreEntitySet="BaiVietCaNhan">
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="NguoiThichIds" ColumnName="NguoiThichIds" />
+                <ScalarProperty Name="BinhLuanIds" ColumnName="BinhLuanIds" />
+                <ScalarProperty Name="MediaThumb" ColumnName="MediaThumb" />
+                <ScalarProperty Name="Media" ColumnName="Media" />
+                <ScalarProperty Name="NoiDungBaiViet" ColumnName="NoiDungBaiViet" />
+                <ScalarProperty Name="ChuBaiVietId" ColumnName="ChuBaiVietId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BaiVietCaNhanAnhs">
+            <EntityTypeMapping TypeName="Gemini.BaiVietCaNhanAnh">
+              <MappingFragment StoreEntitySet="BaiVietCaNhanAnh">
+                <ScalarProperty Name="Sort" ColumnName="Sort" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="BaiVietId" ColumnName="BaiVietId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BaiVietCaNhanBaoCaos">
+            <EntityTypeMapping TypeName="Gemini.BaiVietCaNhanBaoCao">
+              <MappingFragment StoreEntitySet="BaiVietCaNhanBaoCao">
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="Details" ColumnName="Details" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="BaiVietId" ColumnName="BaiVietId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BanBes">
+            <EntityTypeMapping TypeName="Gemini.BanBe">
+              <MappingFragment StoreEntitySet="BanBe">
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="Accepted" ColumnName="Accepted" />
+                <ScalarProperty Name="TaiKhoanCaNhanChapNhan" ColumnName="TaiKhoanCaNhanChapNhan" />
+                <ScalarProperty Name="TaiKhoanCaNhanYeuCau" ColumnName="TaiKhoanCaNhanYeuCau" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BinhLuans">
+            <EntityTypeMapping TypeName="Gemini.BinhLuan">
+              <MappingFragment StoreEntitySet="BinhLuan">
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="NoiDungBinhLuan" ColumnName="NoiDungBinhLuan" />
+                <ScalarProperty Name="NguoiVietBinhLuanId" ColumnName="NguoiVietBinhLuanId" />
+                <ScalarProperty Name="BaiVietId" ColumnName="BaiVietId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DoanChats">
+            <EntityTypeMapping TypeName="Gemini.DoanChat">
+              <MappingFragment StoreEntitySet="DoanChat">
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="NoiDungChat" ColumnName="NoiDungChat" />
+                <ScalarProperty Name="NguoiNhanId" ColumnName="NguoiNhanId" />
+                <ScalarProperty Name="NguoiGuiId" ColumnName="NguoiGuiId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LichSuTimKiems">
+            <EntityTypeMapping TypeName="Gemini.LichSuTimKiem">
+              <MappingFragment StoreEntitySet="LichSuTimKiem">
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="TuKhoa" ColumnName="TuKhoa" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="Gemini.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="definition" ColumnName="definition" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TaiKhoanCaNhans">
+            <EntityTypeMapping TypeName="Gemini.TaiKhoanCaNhan">
+              <MappingFragment StoreEntitySet="TaiKhoanCaNhan">
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="ChanIds" ColumnName="ChanIds" />
+                <ScalarProperty Name="Token" ColumnName="Token" />
+                <ScalarProperty Name="LinkAvatar" ColumnName="LinkAvatar" />
+                <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+                <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+                <ScalarProperty Name="Ten" ColumnName="Ten" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer>
+    <edmx:Connection>
+      <edmx:DesignerInfoPropertySet>
+        <edmx:DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </edmx:DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <edmx:DesignerInfoPropertySet>
+        <edmx:DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <edmx:DesignerProperty Name="EnablePluralization" Value="True" />
+        <edmx:DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <edmx:DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <edmx:DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </edmx:DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams />
+  </edmx:Designer>
+</edmx:Edmx>

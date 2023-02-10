@@ -1,0 +1,31 @@
+2023-02-07 00:36:27,165: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:36:27,246: [ERROR] AdminController-LoginTime: Ghi th?i gian online th?t b?i - User:system
+2023-02-07 00:36:27,247: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2023-02-07 00:36:52,155: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:37:35,058: [ERROR] AdminController-LoginTime: Ghi th?i gian online th?t b?i - User:system
+2023-02-07 00:37:35,058: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2023-02-07 00:39:39,677: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:40:05,797: [ERROR] AdminController-LoginTime: Ghi th?i gian online th?t b?i - User:system
+2023-02-07 00:40:05,797: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2023-02-07 00:41:55,802: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:41:55,975: [ERROR] AdminController-LoginTime: Ghi th?i gian online th?t b?i - User:system
+2023-02-07 00:41:55,975: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2023-02-07 00:43:10,919: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:43:10,944: [ERROR] AdminController-LoginTime: Ghi th?i gian online th?t b?i - User:system
+2023-02-07 00:43:10,944: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2023-02-07 00:44:38,055: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:44:38,138: [DEBUG] System.Data.Entity.Validation.DbValidationError
+2023-02-07 00:44:38,140: [DEBUG] AdminController-Login: Ðang nh?p th?t b?i
+2023-02-07 00:44:47,388: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:45:01,032: [DEBUG] System.Data.Entity.Validation.DbValidationError
+2023-02-07 00:45:01,032: [DEBUG] System.Data.Entity.Validation.DbValidationError
+2023-02-07 00:45:05,492: [DEBUG] AdminController-Login: Ðang nh?p th?t b?i
+2023-02-07 00:45:41,868: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:45:42,550: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2023-02-07 00:45:59,637: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:45:59,660: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2023-02-07 00:47:19,411: [DEBUG] AdminController-Login: Ðang nh?p
+2023-02-07 00:47:19,504: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2023-02-07 22:42:30,626: [DEBUG] System.Data.Entity.Validation.DbValidationError
+2023-02-07 22:42:56,156: [DEBUG] System.Data.Entity.Validation.DbValidationError
+2023-02-07 22:42:56,157: [DEBUG] System.Data.Entity.Validation.DbValidationError

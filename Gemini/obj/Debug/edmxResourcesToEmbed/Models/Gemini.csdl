@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Gemini" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="GeminiEntities" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(Gemini.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(Gemini.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="fnSplit" IsComposable="true" ReturnType="Collection(String)">
+      <Parameter Name="sInputList" Mode="In" Type="String" />
+      <Parameter Name="sDelimiter" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="BaiVietCaNhans" EntityType="Gemini.BaiVietCaNhan" />
+    <EntitySet Name="BaiVietCaNhanAnhs" EntityType="Gemini.BaiVietCaNhanAnh" />
+    <EntitySet Name="BaiVietCaNhanBaoCaos" EntityType="Gemini.BaiVietCaNhanBaoCao" />
+    <EntitySet Name="BanBes" EntityType="Gemini.BanBe" />
+    <EntitySet Name="BinhLuans" EntityType="Gemini.BinhLuan" />
+    <EntitySet Name="DoanChats" EntityType="Gemini.DoanChat" />
+    <EntitySet Name="LichSuTimKiems" EntityType="Gemini.LichSuTimKiem" />
+    <EntitySet Name="sysdiagrams" EntityType="Gemini.sysdiagram" />
+    <EntitySet Name="TaiKhoanCaNhans" EntityType="Gemini.TaiKhoanCaNhan" />
+    <AssociationSet Name="FK_BaiVietCaNhanAnh_BaiVietCaNhan" Association="Gemini.FK_BaiVietCaNhanAnh_BaiVietCaNhan">
+      <End Role="BaiVietCaNhan" EntitySet="BaiVietCaNhans" />
+      <End Role="BaiVietCaNhanAnh" EntitySet="BaiVietCaNhanAnhs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BaiVietCaNhanBaoCao_BaiVietCaNhan" Association="Gemini.FK_BaiVietCaNhanBaoCao_BaiVietCaNhan">
+      <End Role="BaiVietCaNhan" EntitySet="BaiVietCaNhans" />
+      <End Role="BaiVietCaNhanBaoCao" EntitySet="BaiVietCaNhanBaoCaos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BinhLuan_BaiVietCaNhan" Association="Gemini.FK_BinhLuan_BaiVietCaNhan">
+      <End Role="BaiVietCaNhan" EntitySet="BaiVietCaNhans" />
+      <End Role="BinhLuan" EntitySet="BinhLuans" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BanBe_TaiKhoanCaNhan" Association="Gemini.FK_BanBe_TaiKhoanCaNhan">
+      <End Role="TaiKhoanCaNhan" EntitySet="TaiKhoanCaNhans" />
+      <End Role="BanBe" EntitySet="BanBes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LichSuTimKiem_TaiKhoanCaNhan" Association="Gemini.FK_LichSuTimKiem_TaiKhoanCaNhan">
+      <End Role="TaiKhoanCaNhan" EntitySet="TaiKhoanCaNhans" />
+      <End Role="LichSuTimKiem" EntitySet="LichSuTimKiems" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="BaiVietCaNhan">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ChuBaiVietId" Type="Int32" />
+    <Property Name="NoiDungBaiViet" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Media" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="MediaThumb" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="BinhLuanIds" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiThichIds" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+    <NavigationProperty Name="BaiVietCaNhanAnhs" Relationship="Gemini.FK_BaiVietCaNhanAnh_BaiVietCaNhan" FromRole="BaiVietCaNhan" ToRole="BaiVietCaNhanAnh" />
+    <NavigationProperty Name="BaiVietCaNhanBaoCaos" Relationship="Gemini.FK_BaiVietCaNhanBaoCao_BaiVietCaNhan" FromRole="BaiVietCaNhan" ToRole="BaiVietCaNhanBaoCao" />
+    <NavigationProperty Name="BinhLuans" Relationship="Gemini.FK_BinhLuan_BaiVietCaNhan" FromRole="BaiVietCaNhan" ToRole="BinhLuan" />
+  </EntityType>
+  <EntityType Name="BaiVietCaNhanAnh">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BaiVietId" Type="Int32" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Sort" Type="Int32" />
+    <NavigationProperty Name="BaiVietCaNhan" Relationship="Gemini.FK_BaiVietCaNhanAnh_BaiVietCaNhan" FromRole="BaiVietCaNhanAnh" ToRole="BaiVietCaNhan" />
+  </EntityType>
+  <EntityType Name="BaiVietCaNhanBaoCao">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BaiVietId" Type="Int32" />
+    <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Details" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="BaiVietCaNhan" Relationship="Gemini.FK_BaiVietCaNhanBaoCao_BaiVietCaNhan" FromRole="BaiVietCaNhanBaoCao" ToRole="BaiVietCaNhan" />
+  </EntityType>
+  <EntityType Name="BanBe">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaiKhoanCaNhanYeuCau" Type="Int32" />
+    <Property Name="TaiKhoanCaNhanChapNhan" Type="Int32" />
+    <Property Name="Accepted" Type="Int32" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="TaiKhoanCaNhan" Relationship="Gemini.FK_BanBe_TaiKhoanCaNhan" FromRole="BanBe" ToRole="TaiKhoanCaNhan" />
+  </EntityType>
+  <EntityType Name="BinhLuan">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="BaiVietId" Type="Int32" />
+    <Property Name="NguoiVietBinhLuanId" Type="Int32" />
+    <Property Name="NoiDungBinhLuan" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+    <NavigationProperty Name="BaiVietCaNhan" Relationship="Gemini.FK_BinhLuan_BaiVietCaNhan" FromRole="BinhLuan" ToRole="BaiVietCaNhan" />
+  </EntityType>
+  <EntityType Name="DoanChat">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NguoiGuiId" Type="Int32" />
+    <Property Name="NguoiNhanId" Type="Int32" />
+    <Property Name="NoiDungChat" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+  </EntityType>
+  <EntityType Name="LichSuTimKiem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TuKhoa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TaiKhoanCaNhan" Relationship="Gemini.FK_LichSuTimKiem_TaiKhoanCaNhan" FromRole="LichSuTimKiem" ToRole="TaiKhoanCaNhan" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TaiKhoanCaNhan">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ten" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="MatKhau" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SoDienThoai" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LinkAvatar" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Token" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ChanIds" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Active" Type="Int32" Nullable="false" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+    <NavigationProperty Name="BanBes" Relationship="Gemini.FK_BanBe_TaiKhoanCaNhan" FromRole="TaiKhoanCaNhan" ToRole="BanBe" />
+    <NavigationProperty Name="LichSuTimKiems" Relationship="Gemini.FK_LichSuTimKiem_TaiKhoanCaNhan" FromRole="TaiKhoanCaNhan" ToRole="LichSuTimKiem" />
+  </EntityType>
+  <Association Name="FK_BaiVietCaNhanAnh_BaiVietCaNhan">
+    <End Type="Gemini.BaiVietCaNhan" Role="BaiVietCaNhan" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Gemini.BaiVietCaNhanAnh" Role="BaiVietCaNhanAnh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BaiVietCaNhan">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BaiVietCaNhanAnh">
+        <PropertyRef Name="BaiVietId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BaiVietCaNhanBaoCao_BaiVietCaNhan">
+    <End Type="Gemini.BaiVietCaNhan" Role="BaiVietCaNhan" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Gemini.BaiVietCaNhanBaoCao" Role="BaiVietCaNhanBaoCao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BaiVietCaNhan">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BaiVietCaNhanBaoCao">
+        <PropertyRef Name="BaiVietId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BinhLuan_BaiVietCaNhan">
+    <End Type="Gemini.BaiVietCaNhan" Role="BaiVietCaNhan" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Gemini.BinhLuan" Role="BinhLuan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BaiVietCaNhan">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BinhLuan">
+        <PropertyRef Name="BaiVietId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BanBe_TaiKhoanCaNhan">
+    <End Type="Gemini.TaiKhoanCaNhan" Role="TaiKhoanCaNhan" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Gemini.BanBe" Role="BanBe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaiKhoanCaNhan">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BanBe">
+        <PropertyRef Name="TaiKhoanCaNhanYeuCau" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LichSuTimKiem_TaiKhoanCaNhan">
+    <End Type="Gemini.TaiKhoanCaNhan" Role="TaiKhoanCaNhan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Gemini.LichSuTimKiem" Role="LichSuTimKiem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaiKhoanCaNhan">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LichSuTimKiem">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

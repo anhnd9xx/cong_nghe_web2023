@@ -1,0 +1,18 @@
+2022-12-25 18:59:11,301: [ERROR] System.InvalidCastException: Unable to cast object of type 'System.Security.Principal.GenericIdentity' to type 'System.Web.Security.FormsIdentity'.
+   at Gemini.Controllers._01_Hethong.AdminController.Index() in C:\ProjectOS\Corework\Gemini\Controllers\01_Hethong\AdminController.cs:line 33
+2022-12-25 18:59:14,028: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-25 18:59:14,175: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2022-12-25 19:09:15,851: [DEBUG] AdminController-ForgotPassword: Khôi ph?c m?t kh?u th?t b?i-User: system
+2022-12-25 19:10:38,002: [DEBUG] AdminController-ForgotPassword: Khôi ph?c m?t kh?u th?t b?i-User: system
+2022-12-25 19:11:00,487: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-25 19:11:00,502: [DEBUG] AdminController-Login: Ðang nh?p th?t b?i
+2022-12-25 19:11:02,865: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-25 19:11:02,880: [DEBUG] AdminController-Login: Ðang nh?p th?t b?i
+2022-12-25 19:12:29,947: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-25 19:12:30,757: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2022-12-25 19:14:47,186: [DEBUG] AdminController-ForgotPassword: Khôi ph?c m?t kh?u th?t b?i-User: system
+2022-12-25 19:14:50,194: [DEBUG] Send email Success
+2022-12-25 19:14:58,370: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-25 19:14:58,391: [DEBUG] AdminController-Login: Ðang nh?p thành công
+2022-12-25 19:15:12,449: [DEBUG] AdminController-Login: Ðang nh?p
+2022-12-25 19:15:12,471: [DEBUG] AdminController-Login: Ðang nh?p thành công

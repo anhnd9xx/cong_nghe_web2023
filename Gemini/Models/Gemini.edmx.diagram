@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f949d5aa8834bef9d86b16748f8a183" Name="Diagram1" ZoomLevel="65">
+        <EntityTypeShape EntityType="Gemini.BaiVietCaNhan" Width="1.5" PointX="0.75" PointY="3.625" />
+        <EntityTypeShape EntityType="Gemini.BaiVietCaNhanAnh" Width="1.5" PointX="3" PointY="4.375" />
+        <EntityTypeShape EntityType="Gemini.BaiVietCaNhanBaoCao" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="Gemini.BanBe" Width="1.5" PointX="8" PointY="3.75" />
+        <EntityTypeShape EntityType="Gemini.BinhLuan" Width="1.5" PointX="3" PointY="7.125" />
+        <EntityTypeShape EntityType="Gemini.DoanChat" Width="1.5" PointX="5.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Gemini.LichSuTimKiem" Width="1.5" PointX="8" PointY="1.125" />
+        <EntityTypeShape EntityType="Gemini.sysdiagram" Width="1.5" PointX="7.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Gemini.TaiKhoanCaNhan" Width="1.5" PointX="5.75" PointY="1.625" />
+        <AssociationConnector Association="Gemini.FK_BaiVietCaNhanAnh_BaiVietCaNhan" />
+        <AssociationConnector Association="Gemini.FK_BaiVietCaNhanBaoCao_BaiVietCaNhan" />
+        <AssociationConnector Association="Gemini.FK_BinhLuan_BaiVietCaNhan" />
+        <AssociationConnector Association="Gemini.FK_BanBe_TaiKhoanCaNhan" />
+        <AssociationConnector Association="Gemini.FK_LichSuTimKiem_TaiKhoanCaNhan" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
